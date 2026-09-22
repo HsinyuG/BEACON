@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Training and evaluation artifacts
+work_dirs/
+outputs/
+wandb/
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+
+# Data and local configuration
+data/
+datasets/
+.env
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
