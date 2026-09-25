@@ -1,0 +1,467 @@
+# @package _global_
+
+defaults:
+  - /habitat: habitat_config_base
+  - /habitat/task: orca_task_detail
+  - /habitat/simulator/sensor_setups@habitat.simulator.agents.agent_0: spot_agent
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_0: spot
+
+  # Humans (1–200): reuse human_1..human_12 configs in a round-robin pattern
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_1: human_1
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_2: human_2
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_3: human_3
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_4: human_4
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_5: human_5
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_6: human_6
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_7: human_7
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_8: human_8
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_9: human_9
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_10: human_10
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_11: human_11
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_12: human_12
+
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_13: human_1
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_14: human_2
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_15: human_3
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_16: human_4
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_17: human_5
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_18: human_6
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_19: human_7
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_20: human_8
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_21: human_9
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_22: human_10
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_23: human_11
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_24: human_12
+
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_25: human_1
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_26: human_2
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_27: human_3
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_28: human_4
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_29: human_5
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_30: human_6
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_31: human_7
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_32: human_8
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_33: human_9
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_34: human_10
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_35: human_11
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_36: human_12
+
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_37: human_1
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_38: human_2
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_39: human_3
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_40: human_4
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_41: human_5
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_42: human_6
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_43: human_7
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_44: human_8
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_45: human_9
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_46: human_10
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_47: human_11
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_48: human_12
+
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_49: human_1
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_50: human_2
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_51: human_3
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_52: human_4
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_53: human_5
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_54: human_6
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_55: human_7
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_56: human_8
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_57: human_9
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_58: human_10
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_59: human_11
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_60: human_12
+
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_61: human_1
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_62: human_2
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_63: human_3
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_64: human_4
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_65: human_5
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_66: human_6
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_67: human_7
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_68: human_8
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_69: human_9
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_70: human_10
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_71: human_11
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_72: human_12
+
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_73: human_1
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_74: human_2
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_75: human_3
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_76: human_4
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_77: human_5
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_78: human_6
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_79: human_7
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_80: human_8
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_81: human_9
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_82: human_10
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_83: human_11
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_84: human_12
+
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_85: human_1
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_86: human_2
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_87: human_3
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_88: human_4
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_89: human_5
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_90: human_6
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_91: human_7
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_92: human_8
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_93: human_9
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_94: human_10
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_95: human_11
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_96: human_12
+
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_97: human_1
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_98: human_2
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_99: human_3
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_100: human_4
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_101: human_5
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_102: human_6
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_103: human_7
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_104: human_8
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_105: human_9
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_106: human_10
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_107: human_11
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_108: human_12
+
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_109: human_1
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_110: human_2
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_111: human_3
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_112: human_4
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_113: human_5
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_114: human_6
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_115: human_7
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_116: human_8
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_117: human_9
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_118: human_10
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_119: human_11
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_120: human_12
+
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_121: human_1
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_122: human_2
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_123: human_3
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_124: human_4
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_125: human_5
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_126: human_6
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_127: human_7
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_128: human_8
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_129: human_9
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_130: human_10
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_131: human_11
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_132: human_12
+
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_133: human_1
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_134: human_2
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_135: human_3
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_136: human_4
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_137: human_5
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_138: human_6
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_139: human_7
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_140: human_8
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_141: human_9
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_142: human_10
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_143: human_11
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_144: human_12
+
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_145: human_1
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_146: human_2
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_147: human_3
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_148: human_4
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_149: human_5
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_150: human_6
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_151: human_7
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_152: human_8
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_153: human_9
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_154: human_10
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_155: human_11
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_156: human_12
+
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_157: human_1
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_158: human_2
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_159: human_3
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_160: human_4
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_161: human_5
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_162: human_6
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_163: human_7
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_164: human_8
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_165: human_9
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_166: human_10
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_167: human_11
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_168: human_12
+
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_169: human_1
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_170: human_2
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_171: human_3
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_172: human_4
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_173: human_5
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_174: human_6
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_175: human_7
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_176: human_8
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_177: human_9
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_178: human_10
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_179: human_11
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_180: human_12
+
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_181: human_1
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_182: human_2
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_183: human_3
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_184: human_4
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_185: human_5
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_186: human_6
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_187: human_7
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_188: human_8
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_189: human_9
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_190: human_10
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_191: human_11
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_192: human_12
+
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_193: human_1
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_194: human_2
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_195: human_3
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_196: human_4
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_197: human_5
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_198: human_6
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_199: human_7
+  - /habitat/simulator/agents@habitat.simulator.agents.agent_200: human_8
+
+
+  - /habitat/dataset/social_nav_v2: social-mp3d
+  - _self_
+
+habitat:
+  environment:
+    max_episode_steps: 1000000 # 500
+
+  simulator:
+    type: RearrangeSim-v2
+    agents_order:
+      - agent_0
+      - agent_1
+      - agent_2
+      - agent_3
+      - agent_4
+      - agent_5
+      - agent_6
+      - agent_7
+      - agent_8
+      - agent_9
+      - agent_10
+      - agent_11
+      - agent_12
+      - agent_13
+      - agent_14
+      - agent_15
+      - agent_16
+      - agent_17
+      - agent_18
+      - agent_19
+      - agent_20
+      - agent_21
+      - agent_22
+      - agent_23
+      - agent_24
+      - agent_25
+      - agent_26
+      - agent_27
+      - agent_28
+      - agent_29
+      - agent_30
+      - agent_31
+      - agent_32
+      - agent_33
+      - agent_34
+      - agent_35
+      - agent_36
+      - agent_37
+      - agent_38
+      - agent_39
+      - agent_40
+      - agent_41
+      - agent_42
+      - agent_43
+      - agent_44
+      - agent_45
+      - agent_46
+      - agent_47
+      - agent_48
+      - agent_49
+      - agent_50
+      - agent_51
+      - agent_52
+      - agent_53
+      - agent_54
+      - agent_55
+      - agent_56
+      - agent_57
+      - agent_58
+      - agent_59
+      - agent_60
+      - agent_61
+      - agent_62
+      - agent_63
+      - agent_64
+      - agent_65
+      - agent_66
+      - agent_67
+      - agent_68
+      - agent_69
+      - agent_70
+      - agent_71
+      - agent_72
+      - agent_73
+      - agent_74
+      - agent_75
+      - agent_76
+      - agent_77
+      - agent_78
+      - agent_79
+      - agent_80
+      - agent_81
+      - agent_82
+      - agent_83
+      - agent_84
+      - agent_85
+      - agent_86
+      - agent_87
+      - agent_88
+      - agent_89
+      - agent_90
+      - agent_91
+      - agent_92
+      - agent_93
+      - agent_94
+      - agent_95
+      - agent_96
+      - agent_97
+      - agent_98
+      - agent_99
+      - agent_100
+      - agent_101
+      - agent_102
+      - agent_103
+      - agent_104
+      - agent_105
+      - agent_106
+      - agent_107
+      - agent_108
+      - agent_109
+      - agent_110
+      - agent_111
+      - agent_112
+      - agent_113
+      - agent_114
+      - agent_115
+      - agent_116
+      - agent_117
+      - agent_118
+      - agent_119
+      - agent_120
+      - agent_121
+      - agent_122
+      - agent_123
+      - agent_124
+      - agent_125
+      - agent_126
+      - agent_127
+      - agent_128
+      - agent_129
+      - agent_130
+      - agent_131
+      - agent_132
+      - agent_133
+      - agent_134
+      - agent_135
+      - agent_136
+      - agent_137
+      - agent_138
+      - agent_139
+      - agent_140
+      - agent_141
+      - agent_142
+      - agent_143
+      - agent_144
+      - agent_145
+      - agent_146
+      - agent_147
+      - agent_148
+      - agent_149
+      - agent_150
+      - agent_151
+      - agent_152
+      - agent_153
+      - agent_154
+      - agent_155
+      - agent_156
+      - agent_157
+      - agent_158
+      - agent_159
+      - agent_160
+      - agent_161
+      - agent_162
+      - agent_163
+      - agent_164
+      - agent_165
+      - agent_166
+      - agent_167
+      - agent_168
+      - agent_169
+      - agent_170
+      - agent_171
+      - agent_172
+      - agent_173
+      - agent_174
+      - agent_175
+      - agent_176
+      - agent_177
+      - agent_178
+      - agent_179
+      - agent_180
+      - agent_181
+      - agent_182
+      - agent_183
+      - agent_184
+      - agent_185
+      - agent_186
+      - agent_187
+      - agent_188
+      - agent_189
+      - agent_190
+      - agent_191
+      - agent_192
+      - agent_193
+      - agent_194
+      - agent_195
+      - agent_196
+      - agent_197
+      - agent_198
+      - agent_199
+      - agent_200
+
+
+    agents:
+      agent_0:
+        sim_sensors:
+          jaw_depth_sensor:
+            height: 256
+            width: 256
+            position:
+              - 0.0
+              - 1.25
+              - 0.0
+            orientation:
+              - 0.0
+              - 0.0
+              - 0.0
+            hfov: 90
+            sensor_subtype: PINHOLE
+            noise_model: None
+            noise_model_kwargs: {}
+            min_depth: 0.0
+            max_depth: 10.0
+            normalize_depth: true
+
+    kinematic_mode: True
+    habitat_sim_v0:
+      gpu_device_id: 0
+      allow_sliding: True
+      enable_physics: True

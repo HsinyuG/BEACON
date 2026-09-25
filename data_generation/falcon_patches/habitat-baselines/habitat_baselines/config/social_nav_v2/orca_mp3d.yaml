@@ -1,0 +1,2370 @@
+# @package _global_
+
+defaults:
+  - /benchmark/nav/socialnav_v2: orca_mp3d_task
+  - /habitat_baselines: habitat_baselines_rl_config_base
+  - /habitat/simulator/sim_sensors@habitat_baselines.eval.extra_sim_sensors.third_rgb_sensor: third_rgb_sensor
+
+  # Human policies (1–200)
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_1: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_2: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_3: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_4: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_5: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_6: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_7: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_8: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_9: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_10: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_11: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_12: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_13: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_14: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_15: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_16: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_17: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_18: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_19: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_20: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_21: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_22: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_23: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_24: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_25: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_26: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_27: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_28: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_29: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_30: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_31: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_32: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_33: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_34: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_35: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_36: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_37: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_38: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_39: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_40: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_41: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_42: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_43: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_44: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_45: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_46: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_47: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_48: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_49: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_50: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_51: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_52: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_53: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_54: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_55: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_56: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_57: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_58: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_59: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_60: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_61: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_62: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_63: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_64: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_65: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_66: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_67: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_68: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_69: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_70: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_71: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_72: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_73: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_74: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_75: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_76: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_77: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_78: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_79: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_80: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_81: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_82: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_83: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_84: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_85: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_86: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_87: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_88: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_89: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_90: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_91: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_92: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_93: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_94: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_95: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_96: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_97: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_98: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_99: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_100: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_101: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_102: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_103: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_104: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_105: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_106: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_107: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_108: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_109: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_110: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_111: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_112: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_113: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_114: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_115: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_116: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_117: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_118: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_119: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_120: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_121: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_122: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_123: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_124: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_125: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_126: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_127: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_128: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_129: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_130: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_131: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_132: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_133: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_134: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_135: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_136: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_137: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_138: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_139: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_140: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_141: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_142: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_143: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_144: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_145: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_146: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_147: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_148: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_149: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_150: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_151: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_152: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_153: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_154: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_155: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_156: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_157: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_158: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_159: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_160: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_161: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_162: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_163: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_164: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_165: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_166: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_167: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_168: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_169: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_170: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_171: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_172: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_173: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_174: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_175: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_176: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_177: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_178: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_179: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_180: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_181: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_182: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_183: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_184: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_185: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_186: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_187: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_188: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_189: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_190: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_191: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_192: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_193: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_194: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_195: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_196: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_197: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_198: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_199: single_fixed
+  - /habitat_baselines/rl/policy@habitat_baselines.rl.policy.agent_200: single_fixed
+
+
+  # Robot actions
+  - /habitat/task/actions@habitat.task.actions.agent_0_discrete_stop: discrete_stop
+  - /habitat/task/actions@habitat.task.actions.agent_0_discrete_move_forward: discrete_move_forward
+  - /habitat/task/actions@habitat.task.actions.agent_0_discrete_turn_left: discrete_turn_left
+  - /habitat/task/actions@habitat.task.actions.agent_0_discrete_turn_right: discrete_turn_right
+  - /habitat/task/actions@habitat.task.actions.agent_0_discrete_move_backward: discrete_move_backward
+  - /habitat/task/actions@habitat.task.actions.agent_0_discrete_pause: discrete_pause
+
+  # Human actions (1–200)
+  - /habitat/task/actions@habitat.task.actions.agent_1_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_2_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_3_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_4_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_5_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_6_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_7_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_8_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_9_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_10_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_11_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_12_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_13_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_14_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_15_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_16_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_17_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_18_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_19_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_20_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_21_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_22_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_23_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_24_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_25_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_26_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_27_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_28_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_29_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_30_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_31_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_32_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_33_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_34_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_35_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_36_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_37_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_38_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_39_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_40_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_41_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_42_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_43_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_44_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_45_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_46_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_47_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_48_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_49_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_50_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_51_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_52_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_53_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_54_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_55_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_56_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_57_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_58_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_59_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_60_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_61_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_62_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_63_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_64_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_65_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_66_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_67_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_68_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_69_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_70_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_71_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_72_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_73_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_74_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_75_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_76_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_77_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_78_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_79_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_80_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_81_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_82_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_83_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_84_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_85_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_86_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_87_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_88_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_89_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_90_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_91_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_92_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_93_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_94_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_95_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_96_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_97_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_98_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_99_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_100_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_101_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_102_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_103_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_104_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_105_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_106_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_107_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_108_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_109_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_110_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_111_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_112_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_113_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_114_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_115_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_116_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_117_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_118_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_119_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_120_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_121_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_122_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_123_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_124_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_125_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_126_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_127_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_128_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_129_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_130_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_131_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_132_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_133_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_134_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_135_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_136_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_137_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_138_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_139_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_140_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_141_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_142_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_143_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_144_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_145_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_146_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_147_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_148_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_149_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_150_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_151_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_152_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_153_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_154_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_155_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_156_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_157_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_158_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_159_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_160_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_161_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_162_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_163_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_164_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_165_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_166_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_167_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_168_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_169_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_170_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_171_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_172_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_173_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_174_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_175_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_176_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_177_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_178_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_179_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_180_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_181_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_182_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_183_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_184_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_185_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_186_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_187_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_188_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_189_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_190_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_191_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_192_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_193_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_194_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_195_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_196_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_197_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_198_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_199_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+  - /habitat/task/actions@habitat.task.actions.agent_200_oracle_nav_randcoord_action_obstacle: oracle_nav_action
+
+
+  - /habitat/task/lab_sensors@habitat.task.lab_sensors.agent_0_pointgoal_with_gps_compass: pointgoal_with_gps_compass_sensor
+  - _self_
+
+habitat:
+  dataset:
+    # scenes_dir: data/scene_datasets/mp3d/v1/tasks/mp3d_habitat
+    data_path: data/datasets/pointnav/crowd-mp3d/{split}/{split}.json.gz
+  environment:
+    iterator_options:
+      shuffle: False # keep the same order
+  gym:
+    obs_keys:
+      - agent_0_articulated_agent_jaw_depth
+      - agent_0_pointgoal_with_gps_compass
+      - agent_0_localization_sensor
+      - agent_1_localization_sensor
+      - agent_2_localization_sensor
+      - agent_3_localization_sensor
+      - agent_4_localization_sensor
+      - agent_5_localization_sensor
+      - agent_6_localization_sensor
+      - agent_0_oracle_shortest_path_sensor
+      - agent_0_human_velocity_sensor
+  task:
+    actions:
+      agent_0_discrete_stop:
+        lin_speed: 0.0
+        ang_speed: 0.0
+      agent_0_discrete_move_forward:
+        lin_speed: 25.0
+        ang_speed: 0.0
+        allow_dyn_slide: True
+      agent_0_discrete_turn_left:
+        lin_speed: 0.0
+        ang_speed: 20.0
+        allow_dyn_slide: True
+      agent_0_discrete_turn_right:
+        lin_speed: 0.0
+        ang_speed: -20.0
+        allow_dyn_slide: True
+      agent_0_discrete_move_backward:
+        lin_speed: 25.0    # match your forward speed
+        ang_speed: 0.0
+        allow_dyn_slide: True
+      agent_0_discrete_pause:
+        lin_speed: 0.0
+        ang_speed: 0.0
+        allow_dyn_slide: True
+
+      # Human actions (1–200)
+      agent_1_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_2_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_3_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_4_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_5_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_6_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_7_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_8_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_9_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_10_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_11_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_12_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_13_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_14_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_15_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_16_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_17_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_18_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_19_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_20_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_21_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_22_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_23_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_24_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_25_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_26_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_27_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_28_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_29_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_30_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_31_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_32_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_33_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_34_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_35_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_36_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_37_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_38_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_39_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_40_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_41_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_42_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_43_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_44_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_45_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_46_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_47_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_48_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_49_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_50_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_51_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_52_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_53_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_54_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_55_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_56_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_57_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_58_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_59_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_60_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_61_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_62_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_63_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_64_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_65_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_66_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_67_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_68_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_69_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_70_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_71_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_72_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_73_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_74_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_75_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_76_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_77_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_78_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_79_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_80_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_81_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_82_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_83_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_84_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_85_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_86_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_87_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_88_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_89_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_90_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_91_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_92_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_93_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_94_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_95_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_96_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_97_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_98_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_99_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_100_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_101_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_102_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_103_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_104_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_105_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_106_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_107_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_108_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_109_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_110_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_111_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_112_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_113_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_114_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_115_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_116_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_117_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_118_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_119_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_120_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_121_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_122_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_123_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_124_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_125_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_126_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_127_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_128_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_129_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_130_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_131_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_132_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_133_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_134_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_135_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_136_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_137_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_138_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_139_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_140_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_141_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_142_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_143_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_144_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_145_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_146_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_147_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_148_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_149_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_150_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_151_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_152_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_153_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_154_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_155_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_156_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_157_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_158_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_159_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_160_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_161_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_162_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_163_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_164_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_165_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_166_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_167_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_168_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_169_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_170_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_171_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_172_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_173_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_174_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_175_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_176_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_177_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_178_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_179_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_180_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_181_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_182_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_183_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_184_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_185_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_186_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_187_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_188_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_189_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_190_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_191_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_192_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_193_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_194_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_195_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_196_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_197_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_198_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_199_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+      agent_200_oracle_nav_randcoord_action_obstacle:
+        type: OracleNavRandCoordAction_Obstacle_Custom
+        motion_control: human_joints
+        # human
+        lin_speed: 2000
+        ang_speed: 2000
+        allow_dyn_slide: True
+
+
+habitat_baselines:
+  evaluate: True          # run eval instead of train
+  num_updates: 0         # no training loop
+  total_num_steps: -1      # also disable the steps cap so only eval runs
+  num_checkpoints: 0      # don't save ckpt.0.pth
+  checkpoint_folder: ""   # optional: disable the path entirely
+  verbose: False
+  trainer_name: "orca-notrainer"
+  torch_gpu_id: 0
+  tensorboard_dir: "evaluation/orca/mp3d/tb"
+  video_dir: "evaluation/orca/mp3d/video"
+  test_episode_count: 1 # -1
+  eval_ckpt_path_dir: "evaluation/orca/mp3d/checkpoints"
+  num_environments: 1 # 4
+  # checkpoint_folder: "evaluation/orca/mp3d/checkpoints"
+  # num_updates: -1
+  # total_num_steps: 1e8
+  log_interval: 10
+  # num_checkpoints: 200
+  # Force PyTorch to be single threaded as
+  # this improves performance considerably
+  force_torch_single_threaded: True
+  load_resume_state_config: False
+
+  evaluator:
+    _target_: habitat_baselines.rl.ppo.orca_evaluator.ORCAEvaluator
+
+  eval:
+    use_ckpt_config: False
+    should_load_ckpt: False
+    video_option: ["disk"]                # save to disk
+
+  rl:
+    agent:
+      type: "MultiAgentAccessMgr"
+      num_agent_types: 201  # 1 robot + 200 humans
+
+      # NOTE: must be length == num_agent_types (201)
+      num_active_agents_per_type:
+        - 1  # agent_0
+        - 1  # agent_1
+        - 1  # agent_2
+        - 1  # agent_3
+        - 1  # agent_4
+        - 1  # agent_5
+        - 1  # agent_6
+        - 1  # agent_7
+        - 1  # agent_8
+        - 1  # agent_9
+        - 1  # agent_10
+        - 1  # agent_11
+        - 1  # agent_12
+        - 1  # agent_13
+        - 1  # agent_14
+        - 1  # agent_15
+        - 1  # agent_16
+        - 1  # agent_17
+        - 1  # agent_18
+        - 1  # agent_19
+        - 1  # agent_20
+        - 1  # agent_21
+        - 1  # agent_22
+        - 1  # agent_23
+        - 1  # agent_24
+        - 1  # agent_25
+        - 1  # agent_26
+        - 1  # agent_27
+        - 1  # agent_28
+        - 1  # agent_29
+        - 1  # agent_30
+        - 1  # agent_31
+        - 1  # agent_32
+        - 1  # agent_33
+        - 1  # agent_34
+        - 1  # agent_35
+        - 1  # agent_36
+        - 1  # agent_37
+        - 1  # agent_38
+        - 1  # agent_39
+        - 1  # agent_40
+        - 1  # agent_41
+        - 1  # agent_42
+        - 1  # agent_43
+        - 1  # agent_44
+        - 1  # agent_45
+        - 1  # agent_46
+        - 1  # agent_47
+        - 1  # agent_48
+        - 1  # agent_49
+        - 1  # agent_50
+        - 1  # agent_51
+        - 1  # agent_52
+        - 1  # agent_53
+        - 1  # agent_54
+        - 1  # agent_55
+        - 1  # agent_56
+        - 1  # agent_57
+        - 1  # agent_58
+        - 1  # agent_59
+        - 1  # agent_60
+        - 1  # agent_61
+        - 1  # agent_62
+        - 1  # agent_63
+        - 1  # agent_64
+        - 1  # agent_65
+        - 1  # agent_66
+        - 1  # agent_67
+        - 1  # agent_68
+        - 1  # agent_69
+        - 1  # agent_70
+        - 1  # agent_71
+        - 1  # agent_72
+        - 1  # agent_73
+        - 1  # agent_74
+        - 1  # agent_75
+        - 1  # agent_76
+        - 1  # agent_77
+        - 1  # agent_78
+        - 1  # agent_79
+        - 1  # agent_80
+        - 1  # agent_81
+        - 1  # agent_82
+        - 1  # agent_83
+        - 1  # agent_84
+        - 1  # agent_85
+        - 1  # agent_86
+        - 1  # agent_87
+        - 1  # agent_88
+        - 1  # agent_89
+        - 1  # agent_90
+        - 1  # agent_91
+        - 1  # agent_92
+        - 1  # agent_93
+        - 1  # agent_94
+        - 1  # agent_95
+        - 1  # agent_96
+        - 1  # agent_97
+        - 1  # agent_98
+        - 1  # agent_99
+        - 1  # agent_100
+        - 1  # agent_101
+        - 1  # agent_102
+        - 1  # agent_103
+        - 1  # agent_104
+        - 1  # agent_105
+        - 1  # agent_106
+        - 1  # agent_107
+        - 1  # agent_108
+        - 1  # agent_109
+        - 1  # agent_110
+        - 1  # agent_111
+        - 1  # agent_112
+        - 1  # agent_113
+        - 1  # agent_114
+        - 1  # agent_115
+        - 1  # agent_116
+        - 1  # agent_117
+        - 1  # agent_118
+        - 1  # agent_119
+        - 1  # agent_120
+        - 1  # agent_121
+        - 1  # agent_122
+        - 1  # agent_123
+        - 1  # agent_124
+        - 1  # agent_125
+        - 1  # agent_126
+        - 1  # agent_127
+        - 1  # agent_128
+        - 1  # agent_129
+        - 1  # agent_130
+        - 1  # agent_131
+        - 1  # agent_132
+        - 1  # agent_133
+        - 1  # agent_134
+        - 1  # agent_135
+        - 1  # agent_136
+        - 1  # agent_137
+        - 1  # agent_138
+        - 1  # agent_139
+        - 1  # agent_140
+        - 1  # agent_141
+        - 1  # agent_142
+        - 1  # agent_143
+        - 1  # agent_144
+        - 1  # agent_145
+        - 1  # agent_146
+        - 1  # agent_147
+        - 1  # agent_148
+        - 1  # agent_149
+        - 1  # agent_150
+        - 1  # agent_151
+        - 1  # agent_152
+        - 1  # agent_153
+        - 1  # agent_154
+        - 1  # agent_155
+        - 1  # agent_156
+        - 1  # agent_157
+        - 1  # agent_158
+        - 1  # agent_159
+        - 1  # agent_160
+        - 1  # agent_161
+        - 1  # agent_162
+        - 1  # agent_163
+        - 1  # agent_164
+        - 1  # agent_165
+        - 1  # agent_166
+        - 1  # agent_167
+        - 1  # agent_168
+        - 1  # agent_169
+        - 1  # agent_170
+        - 1  # agent_171
+        - 1  # agent_172
+        - 1  # agent_173
+        - 1  # agent_174
+        - 1  # agent_175
+        - 1  # agent_176
+        - 1  # agent_177
+        - 1  # agent_178
+        - 1  # agent_179
+        - 1  # agent_180
+        - 1  # agent_181
+        - 1  # agent_182
+        - 1  # agent_183
+        - 1  # agent_184
+        - 1  # agent_185
+        - 1  # agent_186
+        - 1  # agent_187
+        - 1  # agent_188
+        - 1  # agent_189
+        - 1  # agent_190
+        - 1  # agent_191
+        - 1  # agent_192
+        - 1  # agent_193
+        - 1  # agent_194
+        - 1  # agent_195
+        - 1  # agent_196
+        - 1  # agent_197
+        - 1  # agent_198
+        - 1  # agent_199
+        - 1  # agent_200
+
+
+      # NOTE: must be length == num_agent_types (201)
+      num_pool_agents_per_type:
+        - 1  # agent_0
+        - 1  # agent_1
+        - 1  # agent_2
+        - 1  # agent_3
+        - 1  # agent_4
+        - 1  # agent_5
+        - 1  # agent_6
+        - 1  # agent_7
+        - 1  # agent_8
+        - 1  # agent_9
+        - 1  # agent_10
+        - 1  # agent_11
+        - 1  # agent_12
+        - 1  # agent_13
+        - 1  # agent_14
+        - 1  # agent_15
+        - 1  # agent_16
+        - 1  # agent_17
+        - 1  # agent_18
+        - 1  # agent_19
+        - 1  # agent_20
+        - 1  # agent_21
+        - 1  # agent_22
+        - 1  # agent_23
+        - 1  # agent_24
+        - 1  # agent_25
+        - 1  # agent_26
+        - 1  # agent_27
+        - 1  # agent_28
+        - 1  # agent_29
+        - 1  # agent_30
+        - 1  # agent_31
+        - 1  # agent_32
+        - 1  # agent_33
+        - 1  # agent_34
+        - 1  # agent_35
+        - 1  # agent_36
+        - 1  # agent_37
+        - 1  # agent_38
+        - 1  # agent_39
+        - 1  # agent_40
+        - 1  # agent_41
+        - 1  # agent_42
+        - 1  # agent_43
+        - 1  # agent_44
+        - 1  # agent_45
+        - 1  # agent_46
+        - 1  # agent_47
+        - 1  # agent_48
+        - 1  # agent_49
+        - 1  # agent_50
+        - 1  # agent_51
+        - 1  # agent_52
+        - 1  # agent_53
+        - 1  # agent_54
+        - 1  # agent_55
+        - 1  # agent_56
+        - 1  # agent_57
+        - 1  # agent_58
+        - 1  # agent_59
+        - 1  # agent_60
+        - 1  # agent_61
+        - 1  # agent_62
+        - 1  # agent_63
+        - 1  # agent_64
+        - 1  # agent_65
+        - 1  # agent_66
+        - 1  # agent_67
+        - 1  # agent_68
+        - 1  # agent_69
+        - 1  # agent_70
+        - 1  # agent_71
+        - 1  # agent_72
+        - 1  # agent_73
+        - 1  # agent_74
+        - 1  # agent_75
+        - 1  # agent_76
+        - 1  # agent_77
+        - 1  # agent_78
+        - 1  # agent_79
+        - 1  # agent_80
+        - 1  # agent_81
+        - 1  # agent_82
+        - 1  # agent_83
+        - 1  # agent_84
+        - 1  # agent_85
+        - 1  # agent_86
+        - 1  # agent_87
+        - 1  # agent_88
+        - 1  # agent_89
+        - 1  # agent_90
+        - 1  # agent_91
+        - 1  # agent_92
+        - 1  # agent_93
+        - 1  # agent_94
+        - 1  # agent_95
+        - 1  # agent_96
+        - 1  # agent_97
+        - 1  # agent_98
+        - 1  # agent_99
+        - 1  # agent_100
+        - 1  # agent_101
+        - 1  # agent_102
+        - 1  # agent_103
+        - 1  # agent_104
+        - 1  # agent_105
+        - 1  # agent_106
+        - 1  # agent_107
+        - 1  # agent_108
+        - 1  # agent_109
+        - 1  # agent_110
+        - 1  # agent_111
+        - 1  # agent_112
+        - 1  # agent_113
+        - 1  # agent_114
+        - 1  # agent_115
+        - 1  # agent_116
+        - 1  # agent_117
+        - 1  # agent_118
+        - 1  # agent_119
+        - 1  # agent_120
+        - 1  # agent_121
+        - 1  # agent_122
+        - 1  # agent_123
+        - 1  # agent_124
+        - 1  # agent_125
+        - 1  # agent_126
+        - 1  # agent_127
+        - 1  # agent_128
+        - 1  # agent_129
+        - 1  # agent_130
+        - 1  # agent_131
+        - 1  # agent_132
+        - 1  # agent_133
+        - 1  # agent_134
+        - 1  # agent_135
+        - 1  # agent_136
+        - 1  # agent_137
+        - 1  # agent_138
+        - 1  # agent_139
+        - 1  # agent_140
+        - 1  # agent_141
+        - 1  # agent_142
+        - 1  # agent_143
+        - 1  # agent_144
+        - 1  # agent_145
+        - 1  # agent_146
+        - 1  # agent_147
+        - 1  # agent_148
+        - 1  # agent_149
+        - 1  # agent_150
+        - 1  # agent_151
+        - 1  # agent_152
+        - 1  # agent_153
+        - 1  # agent_154
+        - 1  # agent_155
+        - 1  # agent_156
+        - 1  # agent_157
+        - 1  # agent_158
+        - 1  # agent_159
+        - 1  # agent_160
+        - 1  # agent_161
+        - 1  # agent_162
+        - 1  # agent_163
+        - 1  # agent_164
+        - 1  # agent_165
+        - 1  # agent_166
+        - 1  # agent_167
+        - 1  # agent_168
+        - 1  # agent_169
+        - 1  # agent_170
+        - 1  # agent_171
+        - 1  # agent_172
+        - 1  # agent_173
+        - 1  # agent_174
+        - 1  # agent_175
+        - 1  # agent_176
+        - 1  # agent_177
+        - 1  # agent_178
+        - 1  # agent_179
+        - 1  # agent_180
+        - 1  # agent_181
+        - 1  # agent_182
+        - 1  # agent_183
+        - 1  # agent_184
+        - 1  # agent_185
+        - 1  # agent_186
+        - 1  # agent_187
+        - 1  # agent_188
+        - 1  # agent_189
+        - 1  # agent_190
+        - 1  # agent_191
+        - 1  # agent_192
+        - 1  # agent_193
+        - 1  # agent_194
+        - 1  # agent_195
+        - 1  # agent_196
+        - 1  # agent_197
+        - 1  # agent_198
+        - 1  # agent_199
+        - 1  # agent_200
+
+
+      agent_sample_interval: 20
+      force_partner_sample_idx: -1
+
+    policy:
+      agent_0:
+        name: "CustomPolicy" # "ORCAPolicy"
+
+    ppo:
+      # ppo params
+      clip_param: 0.2
+      ppo_epoch: 2
+      num_mini_batch: 2
+      value_loss_coef: 0.5
+      entropy_coef: 0.01
+      lr: 2.5e-4
+      eps: 1e-5
+      max_grad_norm: 0.2
+      num_steps: 128
+      use_gae: True
+      gamma: 0.99
+      tau: 0.95
+      use_linear_clip_decay: False
+      use_linear_lr_decay: False
+      reward_window_size: 50
+      use_normalized_advantage: False
+      hidden_size: 512
+      # Use double buffered sampling, typically helps
+      # when environment time is similar or larger than
+      # policy inference time during rollout generation
+      use_double_buffered_sampler: False
+
+    ddppo:
+      sync_frac: 0.6
+      # The PyTorch distributed backend to use
+      distrib_backend: NCCL
+      # Visual encoder backbone
+      pretrained_weights: pretrained_model/pretrained_habitat3.pth
+      # Initialize with pretrained weights
+      pretrained: False
+      # Initialize just the visual encoder backbone with pretrained weights
+      pretrained_encoder: False
+      # Whether the visual encoder backbone will be trained.
+      train_encoder: True
+      # Whether to reset the critic linear layer
+      reset_critic: True
+
+      # Model parameters
+      backbone: resnet50
+      rnn_type: LSTM
+      num_recurrent_layers: 2

@@ -7,8 +7,10 @@ venv/
 
 # Training and evaluation artifacts
 work_dirs/
+work_dir/
 outputs/
 wandb/
+debug_outputs/
 *.pth
 *.pt
 *.ckpt
